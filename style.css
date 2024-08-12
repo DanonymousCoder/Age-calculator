@@ -5,16 +5,19 @@
 }
 
 body {
-    padding: 20px;
     font-family: "Montserrat", sans-serif;
     background-color: #f7f7f7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cont {
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    max-width: 600px;
+    width: 500px;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -42,4 +45,26 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
